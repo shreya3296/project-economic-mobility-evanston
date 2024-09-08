@@ -4,6 +4,8 @@
 
 The project focuses on analyzing upward mobility in Evanston, IL, using data from the Opportunity Atlas and other socioeconomic datasets. The goal was to explore the factors influencing economic mobility, including education, housing costs, public spaces, and proximity to crime. Through detailed exploratory analysis, I uncovered spatial disparities in mobility across census tracts, followed by causal analysis using advanced techniques like **synthetic control methods**, **propensity score matching**, and **difference-in-differences**. These methods allowed me to isolate the effects of Northwestern University, public amenities, and crime on upward mobility, providing robust insights into the social and economic drivers of inequality.
 
+![alt text](images/img1.png)
+
 ### **Project Part 1: Exploratory Data Analysis**
 
 #### **Problem Statement**
@@ -11,10 +13,13 @@ For Project Part 1, I explored **Evanston, IL**, using data from the Opportunity
 
 #### **Methodology**
 1. **Data Source**: The primary data source was the Opportunity Atlas dataset, which includes economic mobility data by census tract, racial demographics, education levels, and rental costs.
+
 2. **Exploratory Data Analysis (EDA)**: The project started with a comprehensive data exploration process:
    - **Histograms** and **box plots** helped visualize the distribution of key variables like rent and upward mobility.
    - **Correlation analysis** identified relationships between variables, such as the strong positive correlation between educational attainment and economic mobility.
    - **Spatial Analysis**: I visualized spatial variation in economic mobility using census tracts. The **geographical heatmaps** allowed me to identify neighborhoods with significantly lower upward mobility, highlighting disparities even within the relatively affluent Evanston area.
+   
+![alt text](images/img2.png)
 
 3. **Key Variables**:
    - **kfr_pooled_pooled_p25**: Represents upward mobility measured at the 25th income percentile.
